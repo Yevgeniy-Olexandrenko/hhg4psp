@@ -1,0 +1,101 @@
+meta:
+  version: 200122
+  company: "Nintendo"
+  label:   "Game & Watch: Chef"
+  model:   "FP-24"
+  year:    1981
+
+hardware:
+  mcu: sm5a
+  rom: hardware/fp-24
+  lcd: hardware/gnw_chef.svg
+  input:
+    - type:   acl
+      input:  vcc
+      output: mcu_acl
+
+    - type:   time
+      input:  mcu_r4
+      output: mcu_k1
+
+    - type:   game_b
+      input:  mcu_r4
+      output: mcu_k2
+
+    - type:   game_a
+      input:  mcu_r4
+      output: mcu_k3
+
+    - type:   alarm
+      input:  mcu_r4
+      output: mcu_k4
+
+    - type:   right
+      input:  mcu_r3
+      output: mcu_k3
+
+    - type:   left
+      input:  mcu_r3
+      output: mcu_k4
+
+    - type:   cheat
+      input:  gnd
+      output: mcu_alpha
+
+layouts:
+  # X: 317 W: 1288 -> 480 = 0.37267
+  # Y: 176 H: 730  -> 272 = 0.37260
+  # X: 558 W: 804  -> 480 = 0.59701
+  # Y: 313 H: 456  -> 272 = 0.59649
+  - background:
+      file: layout/small_bg.png
+      x: 123
+      y: 61
+      w: 234
+      h: 150
+    display:
+      x: 122
+      y: 60
+      w: 233
+      h: 151
+    foreground:
+      file: layout/small_fg.png
+      x: 0
+      y: 0
+      w: 480
+      h: 272
+
+  - background:
+      file: layout/large_bg.png
+      x: 54
+      y: 18
+      w: 372
+      h: 236
+    display:
+      x: 52
+      y: 14
+      w: 374
+      h: 242
+    foreground:
+      file: layout/large_fg.png
+      x: 0
+      y: 0
+      w: 480
+      h: 272
+
+property:
+  do_not_flip:
+    - x: 10
+      y: 9
+      w: 82
+      h: 21
+
+    - x: 95
+      y: 5
+      w: 96
+      h: 32
+
+    - x: 193
+      y: 8
+      w: 34
+      h: 21

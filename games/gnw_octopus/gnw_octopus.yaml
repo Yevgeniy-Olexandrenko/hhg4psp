@@ -1,0 +1,102 @@
+meta:
+  version: 200122
+  company: "Nintendo"
+  label:   "Game & Watch: Octopus"
+  model:   "OC-22"
+  year:    1981
+
+hardware:
+  mcu: sm5a
+  rom: hardware/oc-22
+  lcd: hardware/gnw_octopus.svg
+  input:
+    - type:   acl
+      input:  vcc
+      output: mcu_acl
+
+    - type:   time
+      input:  mcu_r4
+      output: mcu_k1
+
+    - type:   game_b
+      input:  mcu_r4
+      output: mcu_k2
+
+    - type:   game_a
+      input:  mcu_r4
+      output: mcu_k3
+
+    - type:   alarm
+      input:  mcu_r4
+      output: mcu_k4
+
+    - type:   right
+      input:  gnd
+      output: mcu_beta
+
+    - type:   left
+      input:  gnd
+      output: mcu_alpha
+
+    - type:   cheat
+      input:  mcu_r2
+      output: mcu_k1
+
+layouts:
+  # X: 317 W: 1288 -> 480 = 0.37267
+  # Y: 176 H: 730  -> 272 = 0.37260
+
+  # X: 558 W: 804  -> 480 = 0.59701
+  # Y: 313 H: 456  -> 272 = 0.59649
+  - background:
+      file: layout/small_bg.png
+      x: 123
+      y: 62
+      w: 233
+      h: 148
+    display:
+      x: 119
+      y: 53
+      w: 244
+      h: 166
+    foreground:
+      file: layout/small_fg.png
+      x: 0
+      y: 0
+      w: 480
+      h: 272
+
+  - background:
+      file: layout/large_bg.png
+      x: 54
+      y: 17
+      w: 372
+      h: 238
+    display:
+      x: 46
+      y: 2
+      w: 391
+      h: 266
+    foreground:
+      file: layout/large_fg.png
+      x: 0
+      y: 0
+      w: 480
+      h: 272
+
+property:
+  do_not_flip:
+    - x: 96
+      y: 13
+      w: 82
+      h: 21
+
+    - x: 182
+      y: 19
+      w: 15
+      h: 13
+
+    - x: 8
+      y: 134
+      w: 34
+      h: 21

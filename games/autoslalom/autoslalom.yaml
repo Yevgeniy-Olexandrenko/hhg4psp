@@ -1,0 +1,90 @@
+meta:
+  version: 200602
+  company: "Elektronika"
+  label:   "Autoslalom"
+  model:   "IM-23"
+  year:    1990
+
+hardware:
+  mcu: sm5a
+  rom: hardware/autoslalom.bin
+  lcd: hardware/autoslalom.svg
+  input:
+    - type:   acl
+      input:  vcc
+      output: mcu_acl
+
+    - type:   time
+      input:  mcu_r4
+      output: mcu_k1
+
+    - type:   game_b
+      input:  mcu_r4
+      output: mcu_k2
+
+    - type:   game_a
+      input:  mcu_r4
+      output: mcu_k3
+
+    - type:   alarm
+      input:  mcu_r4
+      output: mcu_k4
+
+    - type:   right_up
+      input:  mcu_r3
+      output: mcu_k2
+
+    - type:   right_down
+      input:  mcu_r3
+      output: mcu_k1
+
+    - type:   left_up
+      input:  mcu_r3
+      output: mcu_k4
+
+    - type:   left_down
+      input:  mcu_r3
+      output: mcu_k3
+
+layouts:
+  # X: 145 W: 2707 -> 480 = 0.1773
+  # Y: 182 H: 1534 -> 272 = 0.1773
+  # X: 656 W: 1686 -> 480 = 0.2847
+  # Y: 471 H: 956  -> 272 = 0.2845
+  - background:
+      file: layout/small_bg.png
+      x: 122
+      y: 61
+      w: 238
+      h: 150
+    display:
+      x: 123
+      y: 60
+      w: 235
+      h: 155
+    foreground:
+      file: layout/small_fg.png
+      x: 0
+      y: 0
+      w: 480
+      h: 272
+
+  - background:
+      file: layout/large_bg.png
+      x: 50
+      y: 15
+      w: 382
+      h: 241
+    display:
+      x: 52
+      y: 13
+      w: 377
+      h: 249
+    foreground:
+      file: layout/large_fg.png
+      x: 0
+      y: 0
+      w: 480
+      h: 272      
+
+property:

@@ -1,0 +1,109 @@
+meta:
+  version: 200122
+  company: "Nintendo"
+  label:   "Game & Watch: Mickey Mouse"
+  model:   "MC-25"
+  year:    1981
+
+hardware:
+  mcu: sm5a
+  rom: hardware/mc-25
+  lcd: hardware/gnw_mmouse.svg
+  input:
+    - type:   acl
+      input:  vcc
+      output: mcu_acl
+
+    - type:   time
+      input:  mcu_r4
+      output: mcu_k1
+
+    - type:   game_b
+      input:  mcu_r4
+      output: mcu_k2
+
+    - type:   game_a
+      input:  mcu_r4
+      output: mcu_k3
+
+    - type:   alarm
+      input:  mcu_r4
+      output: mcu_k4
+
+    - type:   right_up
+      input:  mcu_r3
+      output: mcu_k2
+
+    - type:   right_down
+      input:  mcu_r3
+      output: mcu_k1
+
+    - type:   left_up
+      input:  mcu_r3
+      output: mcu_k4
+
+    - type:   left_down
+      input:  mcu_r3
+      output: mcu_k3
+
+    - type:   cheat
+      input:  gnd
+      output: mcu_alpha
+
+layouts:
+  # X: 317 W: 1288 -> 480 = 0.37267
+  # Y: 176 H: 730  -> 272 = 0.37260
+  # X: 558 W: 804  -> 480 = 0.59701
+  # Y: 313 H: 456  -> 272 = 0.59649
+  - background:
+      file: layout/small_bg.png
+      x: 122
+      y: 61
+      w: 235
+      h: 150
+    display:
+      x: 114
+      y: 56
+      w: 254
+      h: 163
+    foreground:
+      file: layout/small_fg.png
+      x: 0
+      y: 0
+      w: 480
+      h: 272
+
+  - background:
+      file: layout/large_bg.png
+      x: 54
+      y: 17
+      w: 372
+      h: 238
+    display:
+      x: 39
+      y: 7
+      w: 407
+      h: 261
+    foreground:
+      file: layout/large_fg.png
+      x: 0
+      y: 0
+      w: 480
+      h: 272
+
+property:
+  do_not_flip:
+    - x: 114
+      y: 15
+      w: 81
+      h: 20
+
+    - x: 131
+      y: 36
+      w: 53
+      h: 27
+
+    - x: 19
+      y: 143
+      w: 213
+      h: 9

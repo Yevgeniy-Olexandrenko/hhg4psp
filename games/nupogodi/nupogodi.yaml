@@ -1,0 +1,109 @@
+meta:
+  version: 200122
+  company: "Elektronika"
+  label:   "Nu, pogodi!"
+  model:   "IM-02"
+  year:    1984
+
+hardware:
+  mcu: sm5a
+  rom: hardware/mc-25
+  lcd: hardware/nupogodi.svg
+  input:
+    - type:   acl
+      input:  vcc
+      output: mcu_acl
+
+    - type:   time
+      input:  mcu_r4
+      output: mcu_k1
+
+    - type:   game_b
+      input:  mcu_r4
+      output: mcu_k2
+
+    - type:   game_a
+      input:  mcu_r4
+      output: mcu_k3
+
+    - type:   alarm
+      input:  mcu_r4
+      output: mcu_k4
+
+    - type:   right_up
+      input:  mcu_r3
+      output: mcu_k2
+
+    - type:   right_down
+      input:  mcu_r3
+      output: mcu_k1
+
+    - type:   left_up
+      input:  mcu_r3
+      output: mcu_k4
+
+    - type:   left_down
+      input:  mcu_r3
+      output: mcu_k3
+
+    - type:   cheat
+      input:  gnd
+      output: mcu_alpha
+
+layouts:
+  # X: 322 W: 1276 -> 480 = 0.37618
+  # Y: 178 H: 723  -> 272 = 0.37621
+  # X: 561 W: 797  -> 480 = 0.60226
+  # Y: 313 H: 452  -> 272 = 0.60177
+  - background:
+      file: layout/small_bg.png
+      x: 125
+      y: 62
+      w: 230
+      h: 147
+    display:
+      x: 126
+      y: 64
+      w: 228
+      h: 145
+    foreground:
+      file: layout/small_fg.png
+      x: 0
+      y: 0
+      w: 480
+      h: 272
+
+  - background:
+      file: layout/large_bg.png
+      x: 57
+      y: 19
+      w: 367
+      h: 234
+    display:
+      x: 57
+      y: 22
+      w: 365
+      h: 231
+    foreground:
+      file: layout/large_fg.png
+      x: 0
+      y: 0
+      w: 480
+      h: 272
+
+property:
+  do_not_flip:
+    - x: 100
+      y: 4
+      w: 93
+      h: 28
+
+    - x: 121
+      y: 35
+      w: 54
+      h: 18
+
+    - x: 4
+      y: 133
+      w: 220
+      h: 11
