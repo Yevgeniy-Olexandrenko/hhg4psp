@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{0724c95d-7793-4d1b-8d0a-b86aea293403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\machine">
+      <UniqueIdentifier>{64b05f78-5a9e-415a-ba15-ea859241a88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\showcase">
+      <UniqueIdentifier>{26f679f9-fa77-4b47-94fb-e40462ddc5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\platform">
+      <UniqueIdentifier>{df24ee24-13ce-428b-805d-eceb4d05cfa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\commons">
+      <UniqueIdentifier>{638b832b-705a-4be8-9a2f-42875ba43601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\commons\zlib">
+      <UniqueIdentifier>{524718ac-3336-48c9-90a5-87dab1c3eed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\commons\zip">
+      <UniqueIdentifier>{4478dd5e-f656-461b-8e4d-03432255b878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\constants.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\emulator.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\machine\buzzer.h">
+      <Filter>sources\machine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\machine\lcd.h">
+      <Filter>sources\machine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\machine\mcu.h">
+      <Filter>sources\machine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\machine\pcb.h">
+      <Filter>sources\machine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\showcase\layout.h">
+      <Filter>sources\showcase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\platform\platform.h">
+      <Filter>sources\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\commons\commons.h">
+      <Filter>sources\commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\commons\helpers.h">
+      <Filter>sources\commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\commons\reader.h">
+      <Filter>sources\commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\commons\types.h">
+      <Filter>sources\commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\showcase\drawer.h">
+      <Filter>sources\showcase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zip\crypt.h">
+      <Filter>sources\commons\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zip\ioapi.h">
+      <Filter>sources\commons\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zip\unzip.h">
+      <Filter>sources\commons\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zip\zip.h">
+      <Filter>sources\commons\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\crc32.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\deflate.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\gzguts.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\inffast.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\inffixed.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\inflate.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\inftrees.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\trees.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\zconf.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\zlib.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\zutil.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\emulator.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\game.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\machine\buzzer.cpp">
+      <Filter>sources\machine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\machine\lcd.cpp">
+      <Filter>sources\machine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\machine\mcu.cpp">
+      <Filter>sources\machine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\machine\pcb.cpp">
+      <Filter>sources\machine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\showcase\layout.cpp">
+      <Filter>sources\showcase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\platform\psp_main.cpp">
+      <Filter>sources\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\platform\psp_platform.cpp">
+      <Filter>sources\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\platform\sdl2_main.cpp">
+      <Filter>sources\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\platform\sdl2_platform.cpp">
+      <Filter>sources\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\showcase\drawer.cpp">
+      <Filter>sources\showcase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zip\ioapi.c">
+      <Filter>sources\commons\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zip\unzip.c">
+      <Filter>sources\commons\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zip\zip.c">
+      <Filter>sources\commons\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\adler32.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\compress.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\crc32.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\deflate.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\gzclose.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\gzlib.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\gzread.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\gzwrite.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\infback.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\inffast.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\inflate.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\inftrees.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\trees.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\uncompr.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\zutil.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
