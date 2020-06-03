@@ -1,0 +1,83 @@
+meta:
+  version: 191024
+  company: "Nintendo"
+  label:   "Game & Watch: Helmet"
+  model:   "CN-17"
+  year:    1981
+
+hardware:
+  mcu: sm5a
+  rom: hardware/cn-17
+  lcd: hardware/gnw_helmet.svg
+  input:
+    - type:   acl
+      input:  vcc
+      output: mcu_acl
+
+    - type:   time
+      input:  mcu_r4
+      output: mcu_k1
+
+    - type:   game_b
+      input:  mcu_r4
+      output: mcu_k2
+
+    - type:   game_a
+      input:  mcu_r4
+      output: mcu_k3
+
+    - type:   alarm
+      input:  mcu_r4
+      output: mcu_k4
+
+    - type:   right
+      input:  gnd
+      output: mcu_alpha
+
+    - type:   left
+      input:  gnd
+      output: mcu_beta
+
+    - type:   cheat
+      input:  mcu_r3
+      output: mcu_k1
+
+layout:
+  - background:
+      file: layout/small_bg.png
+      x: 145
+      y: 58
+      w: 191
+      h: 127
+    display:
+      x: 133
+      y: 51
+      w: 217
+      h: 142
+    foreground:
+      file: layout/small_fg.png
+      x: 25
+      y: 0
+      w: 431
+      h: 272
+
+  - background:
+      file: layout/large_bg.png
+      x: 56
+      y: 12
+      w: 370
+      h: 248
+    display:
+      x: 31
+      y: -3
+      w: 422
+      h: 276
+    foreground:
+      file: layout/large_fg.png
+      x: 0
+      y: 0
+      w: 480
+      h: 272
+
+property:
+  filling: 0.94
