@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{9a2301da-afd2-4a58-a121-c17d4d878b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\data">
+      <UniqueIdentifier>{7416ea95-2104-49fb-af22-6ff204080cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\commons">
+      <UniqueIdentifier>{57b8192f-7dd7-4aab-907a-08eab4731b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\commons\zip">
+      <UniqueIdentifier>{95211b3d-e29b-4550-b724-8b61688934c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\commons\zlib">
+      <UniqueIdentifier>{98bcbbf3-a418-494b-bd3c-d872b3c80e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\commons\yaml">
+      <UniqueIdentifier>{19547ebd-2925-44c8-88d0-6ea8fbcac549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\commons\lpng">
+      <UniqueIdentifier>{b0446739-e78a-4da9-b3f1-e915ef91cfd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\commons\pngpp">
+      <UniqueIdentifier>{600fc273-7de9-48c6-9c33-beb4da059f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\commons\nanosvg">
+      <UniqueIdentifier>{432c8739-cebf-4866-a1d9-0d656901bc1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Builder.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\data\Graphics.cpp">
+      <Filter>sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\data\TextureSpace.cpp">
+      <Filter>sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\data\Config.cpp">
+      <Filter>sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\data\Texture.cpp">
+      <Filter>sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\data\Writer.cpp">
+      <Filter>sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\data\Image.cpp">
+      <Filter>sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LayoutBuilder.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\data\Display.cpp">
+      <Filter>sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\png.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngerror.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pnggccrd.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngget.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngmem.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngpread.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngread.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngrio.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngrtran.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngrutil.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngset.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngtrans.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngvcrd.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngwio.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngwrite.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngwtran.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\lpng\pngwutil.c">
+      <Filter>sources\commons\lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\nanosvg\svg.cpp">
+      <Filter>sources\commons\nanosvg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\yaml\Yaml.cpp">
+      <Filter>sources\commons\yaml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\adler32.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\compress.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\crc32.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\deflate.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\gzclose.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\gzlib.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\gzread.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\gzwrite.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\infback.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\inffast.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\inflate.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\inftrees.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\trees.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\uncompr.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zlib\zutil.c">
+      <Filter>sources\commons\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zip\ioapi.c">
+      <Filter>sources\commons\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zip\unzip.c">
+      <Filter>sources\commons\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\commons\zip\zip.c">
+      <Filter>sources\commons\zip</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Builder.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\data\Graphics.h">
+      <Filter>sources\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\data\TextureSpace.h">
+      <Filter>sources\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\data\Config.h">
+      <Filter>sources\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\data\Texture.h">
+      <Filter>sources\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\data\Types.h">
+      <Filter>sources\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\data\Writer.h">
+      <Filter>sources\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\data\Image.h">
+      <Filter>sources\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LayoutBuilder.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\data\Display.h">
+      <Filter>sources\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\commons\magic_enum.hpp">
+      <Filter>sources\commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\lpng\png.h">
+      <Filter>sources\commons\lpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\lpng\pngconf.h">
+      <Filter>sources\commons\lpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\nanosvg\nanosvg.h">
+      <Filter>sources\commons\nanosvg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\nanosvg\nanosvgrast.h">
+      <Filter>sources\commons\nanosvg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\nanosvg\svg.h">
+      <Filter>sources\commons\nanosvg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\color.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\config.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\consumer.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\convert_color_space.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\end_info.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\error.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\ga_pixel.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\generator.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\gray_pixel.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\image.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\image_info.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\index_pixel.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\info.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\info_base.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\io_base.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\packed_pixel.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\palette.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\pixel_buffer.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\pixel_traits.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\png.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\reader.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\require_color_space.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\rgb_pixel.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\rgba_pixel.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\solid_pixel_buffer.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\streaming_base.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\tRNS.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\types.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\pngpp\writer.hpp">
+      <Filter>sources\commons\pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\yaml\Yaml.hpp">
+      <Filter>sources\commons\yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\crc32.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\deflate.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\gzguts.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\inffast.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\inffixed.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\inflate.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\inftrees.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\trees.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\zconf.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\zlib.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zlib\zutil.h">
+      <Filter>sources\commons\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zip\crypt.h">
+      <Filter>sources\commons\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zip\ioapi.h">
+      <Filter>sources\commons\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zip\unzip.h">
+      <Filter>sources\commons\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\commons\zip\zip.h">
+      <Filter>sources\commons\zip</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
