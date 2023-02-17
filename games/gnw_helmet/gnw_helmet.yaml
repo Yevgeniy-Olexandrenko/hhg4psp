@@ -42,7 +42,7 @@ hardware:
       input:  mcu_r3
       output: mcu_k1
 
-layout:
+layouts:
   - background:
       file: layout/small_bg.png
       x: 145

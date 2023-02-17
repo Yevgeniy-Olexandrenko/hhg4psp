@@ -5,28 +5,28 @@
 std::string m_games[] =
 {
 	//	wide screen
-	"gnw_mmouse",
-	"gnw_chef",
-	"gnw_octopus",
+//	"gnw_mmouse",
+//	"gnw_chef",
+//	"gnw_octopus",
 ///	"gnw_fire",
-	"gnw_pchute",
+//	"gnw_pchute",
 ///	"gnw_popeye",
 ///	"gnw_egg",
 
 	//	silver/gold
-///	"gnw_ball",
-///	"gnw_fires",
-///	"gnw_flagman",
-///	"gnw_vermin",
-///	"gnw_helmet",
-///	"gnw_judge",
+	"gnw_ball",
+	"gnw_fires",
+	"gnw_flagman",
+	"gnw_vermin",
+	"gnw_helmet",
+	"gnw_judge",
 
 	//	ussr clones
-	"nupogodi",
+//	"nupogodi",
 ///	"exospace",
 ///	"merrycook",
 ///	"spacebridge",
-	"autoslalom"
+//	"autoslalom"
 };
 
 

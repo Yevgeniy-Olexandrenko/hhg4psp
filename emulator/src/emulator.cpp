@@ -4,7 +4,7 @@
 //	Useful info:
 //	https://redream.io/posts/improving-audio-video-synchronization-multi-sync
 
-const std::string k_defaultGame = "autoslalom";
+const std::string k_defaultGame = "gnw_helmet";
 
 Emulator::Emulator()
 	: m_drawer(&m_game)
